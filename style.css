@@ -216,10 +216,24 @@ b {
 
 
 
-.temp-styling {
-  justify-content: center;
-  font-size: 16px;
-  padding-top: 25px;
+.blue {
+  color: #5bafff
+}
+
+.purple {
+ color: #ac78dc
+}
+
+.black {
+  color: #949494
+}
+
+.red {
+  color: #ff6464
+}
+
+.green {
+  color: #a4ffa4
 }
 
 

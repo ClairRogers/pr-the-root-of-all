@@ -9,9 +9,25 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Oxygen&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-2.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <title>Paradise Rising: Trial 005</title>
+
+  <script>
+    function toggleTheme(value) {
+      var theme = document.getElementsByTagName('link')[3];
+      theme.setAttribute('href', value)
+
+      var image = document.getElementById('main-image')
+      if (value == 'style.css') {
+        image.setAttribute('src', 'https://data.whicdn.com/images/336829891/original.gif')
+        image.setAttribute('title', '')
+      } else {
+        image.setAttribute('src', '/helenas-world.png')
+        image.setAttribute('title', 'art by Idrilfox on dA')
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -26,7 +42,7 @@
     <div class="row topbar">
       <div class="col-12 maintitle stroke">
         <div class="mobile-style-title">The Root of All</div>
-        <span class="sub-title">Part 03: The World</span>
+        <span class="sub-title">Part 04: The Gods</span>
       </div>
     </div>
 
@@ -34,7 +50,7 @@
       <div class="col-md-5 col-sm-12">
         <div class="pb-1 d-flex align-items-center justify-content-center">
           <div class="image-container">
-            <img class="cover" width="416" height="697" src="https://data.whicdn.com/images/336829891/original.gif">
+            <img id="main-image" class="cover" width="416" height="697" src="/helenas-world.png" title="art by Idrilfox on dA">
           </div>
         </div>
       </div>
@@ -49,13 +65,16 @@
           <div class="col-12 px-0">
             <ul class="nav nav-tabs" id="myTab2" role="tablist">
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="story-1" data-toggle="tab" href="#story1" role="tab" aria-controls="story1" aria-selected="true">Entry 01</a>
+                <a class="nav-link" id="story-1" data-toggle="tab" href="#story1" role="tab" aria-controls="story1" aria-selected="false" onclick="toggleTheme('style.css')">Entry 01</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="story-2" data-toggle="tab" href="#story2" role="tab" aria-controls="story2" aria-selected="false">Entry 02</a>
+                <a class="nav-link" id="story-2" data-toggle="tab" href="#story2" role="tab" aria-controls="story2" aria-selected="false" onclick="toggleTheme('style.css')">Entry 02</a>
               </li>
-              <li class="nav-item active" role="presentation">
-                <a class="nav-link" id="story-3" data-toggle="tab" href="#story3" role="tab" aria-controls="story3" aria-selected="false">Entry 03</a>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="story-3" data-toggle="tab" href="#story3" role="tab" aria-controls="story3" aria-selected="false" onclick="toggleTheme('style.css')">Entry 03</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="story-4" data-toggle="tab" href="#story4" role="tab" aria-controls="story4" aria-selected="true" onclick="toggleTheme('style-2.css')">Entry 04</a>
               </li>
             </ul>
             <div class="tab-content bg-tab2 p-3" id="myTab2Content">
@@ -66,7 +85,7 @@
                 <p>The pulses grow, getting brighter and faster until it seems like the entire tree is illuminated with color. Just when you think it can't get more intense, the light <i>explodes</i> in a flash, blinding you for just a moment. But when you open your eyes again, the tree is no longer glowing. Instead, you see flecks of beautiful colors floating in the air around you like embers. You feel a breeze on your pelt. And up above, the dreary dark clouds that have hung overhead since your arrival begin to produce the most pleasant, soft rainfall you have ever felt in your life.</p>
                 <p>And standing at the base of the tree is a lanky brown tom.</p>
                 <p><b> "Oh!"</b> Chirek says, blinking hard a couple times. His pupils flash with teal light before returning to normal. He is smiling. <b> "You're here! It worked!"</b></p> 
-                <p>Immediately, everyone erupts into exclamations and chatter. Many of you rush forwards to greet him or whisper excitedly amongst yourselves. Some exchange worried glances, concerned about what this might mean. Chirek himself seems relieved, and regardless of what you may feel, there is some comfort in reuniting with a familiar face for a while. Eventually though, he steps back and waves his tail. <b>“Everyone--please! I know this is a lot, but--I'm here for a reason. There is something I have to try." </b></p> 
+                <p>Immediately, everyone erupts into exclamations and chatter. Many of you rush forwards to greet him or whisper excitedly amongst yourselves. Some exchange worried glances, concerned about what this might mean. Chirek himself seems relieved, and regardless of what you may feel, there is some comfort in reuniting with a familiar face for a while. Eventually though, he steps back and waves his tail. <b>"Everyone--please! I know this is a lot, but--I'm here for a reason. There is something I have to try." </b></p> 
                 <p>You watch him drag a sort of irregular circle in the dirt with a claw, and then step inside of it. His eyes close tight and his jaw sets with concentration for a moment--and then he lifts one paw up into the air over his head, claws outstretched. Each claw, though, is shining with a different color. Red, blue, green, purple, and black. Each soul class. The clouds over the tree suddenly begin to part, and finally you are able to see what they had been hiding: a view into the vast expanse of the universe. Over your head, billions and billions of stars blink and glow from an inky purple backdrop, so bright it feels like you are almost standing among them. Bands of faraway suns paint the backdrop with hazy galaxies; and stars sparkle like frost on a moonlit night. The beauty and the vastness and the <i>closeness</i> of it leaves you speechless.</p> 
                 <p>Chirek's claws glow brighter, reaching up even higher... and as he does, you make out the sudden bright outline of constellations. Five of them, each glowing the same colors as Chirek's five claws.</p>
                 <p>You feel so open. Your chest sings, and it feels like anyone could see right into your heart itself at this very moment if they tried. For a second, you look around at your trialmates, these cats you have come to know as friends or family or enemies or even still strangers. You feel, for a moment, more drawn to them than you ever have before.</p>
@@ -97,14 +116,40 @@
                 <p>Chirek steps back, winded from the effort. The five Plagued cats seem unimpressed, but you feel a sense of awe at the sight. You'd only ever seen a god with the power to manifest things like this before.</p>
                 <p>Chirek smirks. <b>"What do we say? Reminding the lost cats who they are, showing them their soul, it just might create enough energy to break this place open and get back home. Let's help them discover their powers, just like you guys did. Now... what should we have them do?"</b></p>
               </div>
-              <div class="tab-pane fade show active" id="story3" role="tabpanel" aria-labelledby="story-3">
+              <div class="tab-pane fade" id="story3" role="tabpanel" aria-labelledby="story-3">
                 <p>You step into your reflection and feel everything inside you turn inside out.</p>
                 <p>Or maybe you're turning outside in--your body and soul are righting themselves, shifting back into place. You'd thought soulrooting had made everything feel right again, but this made you feel healed in a part of you you didn't realize was broken.</p>
                 <p>While you shift back to your body, you feel like time stretches on forever and lasts less than a heartbeat all at once. You are falling headfirst and completely still at the same time. You see, again, that horrid, sick red version of yourself standing face to face. The thing that had been taking control over your body for so long does not seem malicious or sad or anything. It is still, emotionless, like a machine. It allows you to step past it just like it had stepped past you once before. It doesn't move, doesn't react. Apathetic to the end of its reign. </p>
                 <p>Standing behind it is another version of yourself, facing away from you. This one, you know, is your body. You don't look into your own eyes. You know somehow that you cannot. But you step forward and embrace it anyway.</p>
                 <p>But on your journey back to being whole, back to being <i>you</i>, there is more. Underneath you, a million miles away, you see the <i>world.</i> It is breathtaking--bright and blue and vibrant. But from somewhere in the middle you see a stretch of darkness. It looks like a scorch or an infected wound. A deadzone, you realize. And at the center is Paradise Valley.</p>
                 <p>Just before it ends, though, you see a glimmer of something else. Streaks of light crisscrossing over the surface of the world, twisting and intertwining. It looks like a net connecting every part of the world you know. But in parts it looks as if the net is being tugged away, Threads of it float off into the nothingness beyond. Your gaze draws outwards to the blackness when you realize it isn't nothing--something sits there, pulling on the net that protects the world. It is something wicked and infinite and malicious, with teeth too sharp and claws too eager.</p>
-                <p><b>”How curious to see you here,”</b> Kaulu whispers before you find yourself on your own four paws once more. <b>”Welcome back.”</b></p>
+                <p><b>"How curious to see you here,"</b> Kaulu whispers before you find yourself on your own four paws once more. <b>"Welcome back."</b></p>
+              </div>
+              <div class="tab-pane fade show active" id="story4" role="tabpanel" aria-labelledby="story-4">
+                <p>There's something unsettling about being back in Helena's world. The yellow flowers are not quite the same as you remember, but they still make your stomach turn. The beauty all around you--from the swaying trees to the luminous and multicolored butterfly-like floating creatures to the soft chuckle of nearby streams--seems designed to bring you peace and happiness, but you find yourself fighting against it. You know this place for what it is, what it was built on. And it does not soothe you. </p>
+                <p>After a while, Dolores, Baishe, and Snowberry set off to scout ahead for danger, instructing you again to meet them at the peak of the mountain. You continue to follow the red ribbon in the sky, the only red string in this strange new world. And as you journey, neither Dolores nor the serpents return to warn you of an impending attack. No cats or creatures come to challenge you, though you keep suspecting they might. You travel undisturbed. The peak draws ever closer. </p>
+                <p>You find them as you begin your climb up the peak: The Legendaries.</p> 
+                <p>They are in a small clearing surrounded by birch trees whose leaves flutter in an absent breeze, shimmery and golden in a borderline unnatural way. Under the golden canopy, the Legendaries are much as you remember seeing them last: suspended in red strings, curled in on themselves with their eyes closed, as if in slumber. They appear unhurt. But as you approach them, you realize they are not alone. </p>
+                <p>Oordeel sits in the middle of the clearing, his back to you. His wings are folded carefully at his back, his smoky tail curled around over his paws. His head is tilted back as he looks up at the sleeping Legendaries, but you cannot see the expression on his face. Though he does not look at you, you see his ears twitch as you approach, and you know he knows you are there. </p>
+                <p><b>"Throughout the span of all the trials I held, I never grew attached to my subjects,"</b> Oordeel says softly. <b>"After all, why would I? Would a dog care about the fleas on his pelt?"</b> He shifts slightly, his feathers twitching.<b> "But these--these <i>Legendaries.</i> I would not go so far as to say I care for them, but... they were my success. They were the ones that made it, and they were my charges. I protected them from Helena, and delivered them safely to their soulroot. They are what they are because of me, and in a way... so am I, because of them."</b></p>
+                <p>He sighs and finally turns to you. His eyes look troubled and pensive, but more than that, he looks... exhausted. His wings droop. His tail drags on the ground behind him. He looks listless and dull; he looks like a cat that has given up. <b>"It doesn't matter. Helena got her wish, in the end. Don't worry,"</b> he adds, noticing you glance at the Legendaries with concern. <b>"They're safe, for now. Helena doesn't need them anymore. They're unharmed, but I cannot release them from their sleep while she still holds them."</b></p>
+                <p>He is quiet for a moment, a faraway look in his eyes. He seems to return to himself after several beats of silence. <b>"You're like them, in a way. No matter how many times Helena has beaten you down, somehow you still stand here. I suspect you're looking for her now,"</b> he says. <b>"I can take you to her, if you wish. But..."</b> the exhaustion and defeat in his gaze deepens. <b>"I'm done fighting. Hate me all you want for it--but I'm done. I suspect I was always destined to lose this war. Helena's destiny was written in the stars, but I created mine from nothing. I was a fool for thinking I could change the course of everything. And I think you are fools, too. But I know you aren't about to give up, not here. You'll fight until your dying breaths, won't you? In any case, she knows you're coming--she felt it, when you awoke. When you soulrooted and escaped her plague. She's expecting you."</b></p>
+                <p>Without further comment, he turns and begins leading you on a path up the slope. You follow, weaving for a while through the golden birch trees until they begin to thin. There are less trees at this elevation, just splashes of colorful wildflowers and multicolored lichens against the warm rocks. Eventually, the slope begins to level out, and the path widens. The red string is very close, now. You are almost there. </p>
+                <p>She is there, when you step into the clearing: waiting for you, as Oordeel said. He steps to the side and keeps his gaze firmly averted as you swarm into the clearing, feeling your powers tingle in your paws. You are alert and ready, prepared for her inevitable attack. Kaulu, you realize, is nowhere to be seen. </p>
+                <p><b>"So it's true,"</b> Helena rasps. <b>"You have cured my Plague."</b> She stands in the center of the clearing, her wings partially outstretched. The golden light of this world wraps around her, as if drawn to her, as if loving her with every glimmer in her fur and shine on her feathers. It's like this world knew she was its creator. </p>
+                <p>But she, same as Oordeel, looks different than when you last saw her. Her stance is rigid and stiff, her posture defensive. She eyes you with apprehension and--you think--maybe even an edge of fear. Her gaze sweeps across the assembled group, and there is a look in her eyes you can't quite identify. Desperation? Mania? You have not seen this look on her before. </p>
+                <p><b>"It's too late, you know,"</b> she says. <b>"Do you see? My world--it is finally complete. Whole. I did it... I fulfilled my purpose. I <i>won."</i></b> She says the word with emphasis, with conviction. As if reaffirming its truth aloud. <b>"You begrudge me--but does it make a difference anymore? No matter what you do to me, this world remains. My world. And when my suns shed their last Light on this day, yours will be dead, gone for good, no matter what happens. And would you destroy this and all of its life and beauty, in your revenge?"</b> Her eyes flash. <b>"You would doom more than just one world. Would that make you any different than me, who you despise so?"</b></p>
+                <p>Some of you look towards Oordeel, halfway wondering if he will speak up. But he remains at the edge of the clearing, his shoulders slumped and gaze on the ground. He seems to believe it just as much as Helena does. </p>
+                <p>Instead, it is Dolores' voice that speaks up next. <b>"You're right, Helena."</b> You step to the side to let her through as she makes her way through the throng of your trialmates, stepping forward towards the goddess. Her expression is as unreadable as ever as she regards Helena. <b>"You're right. It is over. You did as you promised."</b> Her scarred ears twitch. <b>"And look where it left you."</b></p>
+                <p><b>"It left me a queen,"</b> she snarls.</p> 
+                <p>Dolores's eyes narrow. <b>"It left you <i>alone."</i></b></p>
+                <p>Helena pauses. She glares at Dolores, but her eyes flicker up towards her brother. He lifts his head to meet her gaze with hardened eyes, and she realizes: it's true. Doesn't this scene prove it? She stands alone. Dolores, her ally, now stands against her. Her brother refuses to see her side. Even her own creations--the serpents, Baishe and Snowberry--watch her reproachfully from the sidelines. And now her only ally, Kaulu, is nowhere to be found in her defense.</p>
+                <p>In every sense of the word, she is alone. </p>
+                <p>Dolores turns back to you. <b>"D'you remember what I said before? About that trick you pulled? I think it's time to find out... if you can tether a god."</b></p>
+                <p>Helena's breathing accelerates with her heartbeat, and you see actual panic start to creep into her expression as her pupils dilate. <b>"I've won,"</b> she insists again, but you have already started advancing on her, power thrumming in your souls. <b>"No--it's over. Leave me! <i>Leave me alone!"</i></b></p>
+                <p>At her final cry, she slams her paw on the ground. A brilliant white blast of light strikes you all, making you cry out in alarm as you shut your eyes tight against the searing brightness. When you blink your eyes open again, the world slowly comes back into focus. She has separated you--you are with every member of your soul class, but the others are away from you, at different points around the clearing. Helena still stands in the middle, but you are too far from both her and the other soul classes to initiate the five-way alignment. You must get closer. </p>
+                <p>But before you can, movement floods the clearing. Creatures appear, more than you can count, swarming in the spaces between you and the other teams, and you and Helena. She has called on her world's creatures to defend her, and though some look apprehensive at the idea of battle, they still stand ready to defend their goddess. </p>
+                <p>This is the battle you had been anticipating all along. At last, it was time to fight. </p>
               </div>
             </div>
           </div>
@@ -125,13 +170,16 @@
             <div class="col-12 px-0">
               <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="obj-1" data-toggle="tab" href="#obj1" role="tab" aria-controls="obj1" aria-selected="true">Entry 01</a>
+                  <a class="nav-link" id="obj-1" data-toggle="tab" href="#obj1" role="tab" aria-controls="obj1" aria-selected="false">Entry 01</a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a class="nav-link" id="obj-2" data-toggle="tab" href="#obj2" role="tab" aria-controls="obj2" aria-selected="false">Entry 02</a>
                 </li>
-                <li class="nav-item active" role="presentation">
+                <li class="nav-item" role="presentation">
                   <a class="nav-link" id="obj-3" data-toggle="tab" href="#obj3" role="tab" aria-controls="obj3" aria-selected="false">Entry 03</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="obj-4" data-toggle="tab" href="#obj4" role="tab" aria-controls="obj4" aria-selected="true">Entry 04</a>
                 </li>
               </ul>
               <div class="tab-content bg-tab p-3" id="myTabContent">
@@ -149,13 +197,33 @@
                   <p>You may decide your own NPC's soul class! However, if you aren't sure what class to pick, we have a few options:</p><ul> <li>You can ask the mods to select a class for you. We can either keep this secret from you or tell you right away. We can also give you a couple options to choose from! We're here to help!</li><li>Use a soul class quiz! <a href="https://uquiz.com/dQJvQ9">Here is the one made by Stan,</a> but you can use any that have been created to help you.</li></ul>
                   <p>You might want to keep your NPC's class secret from your teammates, and even the mods! The reveal will be more fun that way, and give your teammates and your mod a little something more to puzzle out! But this is not required.</p>
                 </div>
-                <div class="tab-pane fade show active" id="obj3" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="tab-pane fade" id="obj3" role="tabpanel" aria-labelledby="obj-3">
                   <p><b>Part 03: The World</b> has begun!</p>
                   <p>You have been organized into five separate teams--one team for each soul class.</p>
                   <p>This event does <b>not</b> require roleplay, but we will have docs for you to post into anyway if you choose!</p>
                   <p>The main focus of Part 3 will be <b>Daily Actions</b>. Daily actions will determine what your character and your team encounters in this event. There are three types of daily actions you can take:</p>
                   <ul><li><b>EXPLORE:</b> Search the area nearby, and try to learn more about the state of the world.</li><li><b>TRAIN:</b> Train for the battle ahead, hone in your abilities.</li><li><b>TALK TO A LOCAL:</b> Talk to someone in the area. This action will work slightly differently in that you can specify a question you want to ask. You will not have control over who answers.</li></ul>
                   <p>Daily actions can only be taken ONCE per day per player. To take an action, post in your team's action channel on Discord.</p>
+                </div>
+                <div class="tab-pane fade show active" id="obj4" role="tabpanel" aria-labelledby="obj-4">
+                  <p><b>Part 04: The Gods</b> has begun!</p>
+                  <p>Once again, you find yourself in five separate teams: one for each soul class.</p>
+                  <p>The objective for this part of the trial is to move your characters and your team as close to Helena as you can get in order to activate a Soul Tether. To do so, you must first battle your way forward through Helena's army of defending creatures.</p>
+                  <ul>
+                    <li>Each team has a goal of pushing forward <b>five spaces.</b> Forward movement is determined by dice rolls in battle.</li>
+                    <li>Each round, teams will have the opportunity to move up <b>one space.</b></li>
+                    <li>There will be at least five rounds (but possibly more). Due to it being midterms for some of our members, rounds are <b>three days</b> each instead of the normal two, so expect a checkpoint every third day.</li>
+                  </ul>
+                  <p>The battle mechanics have been simplified for this portion of the trial. The basic rules are as follows:</p>
+                  <ul>
+                    <li>Winning or losing each round depends on dice roll averages.</li>
+                    <li>Each team member, regardless if they post or not, adds <b>one d20 dice roll</b> to your team's rolls for the round. For the calculation, we will take the AVERAGE of your team's dice rolls.</li>
+                    <li>For players who post during the round, there are modifiers available to increase your personal dice roll to help bring up the average! We will not be telling you what the modifiers are or exactly how much they're worth, but consider things like soulstones, old world magic, etc. </li>
+                    <li>Basically, we want you to experiment to find out what increases your roll!</li>
+                    <li>After we take your team's roll average, we will also roll d20 dice for the enemies you face. You will face a different type of enemy each time you move up, and they may or may not have a modifier. </li>
+                    <li>If your roll average is higher than that of your opponents, you win the round and advance forward one space.</li>
+                  </ul>
+                  <p>If you need any clarification on these mechanics, please don't hesitate to reach out to a mod or staff member!</p>
                 </div>
               </div>
             </div>
@@ -173,10 +241,12 @@
         </div>
         <div class="row my-3">
           <div class="col-12 bg-rules pt-3">
+            <p>Our general roleplay etiquette rules remain in place for this part of the trial, but here are a few extra things to keep in mind:</p>
             <ul>
-              <li>Roleplay is not required for this event, but welcomed! Feel free to participate on your team's doc.</li>
-              <li>Daily actions WILL count towards your final post total--as long as there is at least 2-4 sentences of flavor along with it. <b>Please do not exceed 4 sentences.</b> Mods will have a lot of work to do for this event and keeping flavor text short and concise will make things much more manageable! If you want to write more flavorful text, please do so in your RP docs.</li>
-              <li>Mods will be responding to daily actions every day. This is more mod work than usual, so your teams will have multiple mods.</li>
+              <li>For each 2-day round, only your FIRST post for that round will be counted as your combat post. Feel free to post more than once per round if you like, however. </li>
+              <li>Remember to list any item, ability, or special action use at the bottom of your post. Again, any item, ability, or special action must be part of your FIRST post per round if you want it counted in your dice roll!</li>
+              <li>As well, remember to include a short summary of your character's actions for the staff to reference as they write responses.</li>
+              <li>Anything not explicitly mentioned in your post summary/action summary will not be calculated into your roll.</li>
             </ul>
           </div>
         </div>
@@ -194,7 +264,7 @@
       <div class="col-12 px-3 height2">
         <div class="row allper">
           <div class="col-md-4 col-sm-12 center">
-            <h3 style="color: #5bafff;">Blue Team</h3>
+            <h3 class="blue">Blue Team</h3>
             <p class="top-spacing">
               Amadeus
               <br>Bellerose
@@ -210,7 +280,7 @@
               <br>Shrike
               <br>Willow
             </p>
-            <h3 class="top-spacing" style="color: #ff6464;">Red Team</h3> 
+            <h3 class="top-spacing red">Red Team</h3> 
             <p class="top-spacing">
               Allon
               <br>Amias
@@ -230,7 +300,7 @@
             </p> 
           </div>
           <div class="col-md-4 col-sm-12 center">
-            <h3 style="color: #ac78dc;">Purple Team</h3>
+            <h3 class="purple">Purple Team</h3>
             <p class="top-spacing">
               Aileen
               <br>Aleksander
@@ -247,7 +317,7 @@
               <br>Shiloh
               <br>Theo
           </p>
-            <h3 class="top-spacing" style="color: #a4ffa4">Green Team</h3> 
+            <h3 class="top-spacing green">Green Team</h3> 
             <p class="top-spacing">
               Ashyr
               <br>Beni
@@ -266,7 +336,7 @@
             </p> 
           </div>
           <div class="col-md-4 col-sm-12 center">
-            <h3 style="color: #949494;">Black Team</h3>
+            <h3 class="black">Black Team</h3>
             <p class="top-spacing">
               Alilith
               <br>Aphi'im
