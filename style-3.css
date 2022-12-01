@@ -1,0 +1,252 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    /* background-color: #191919; */
+    background-image: linear-gradient(#2c36a5, #e7caf9, #f1cde5);
+    color: #faeee2;
+    font-size: 12px;
+    /* font-size: 30px; */
+  }
+  
+  p {
+    letter-spacing: .05rem;
+  }
+  
+  li {
+    letter-spacing: .025rem;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #9ba5f3;
+    font-family: 'Cinzel Decorative', serif;
+  }
+  
+  a {
+    color: #9ba5f3;
+    /* text-shadow: 1px 1px 2px #FF9BC1; */
+  }
+  a:hover {
+    color: #cfffff;
+  }
+  
+  b {
+    color: #ffe4c9;
+  }
+
+  .image-container {
+    height: 697px;
+    width: 416px;
+  }
+  
+  .cover {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .nav-tabs .nav-link {
+    background-color: #181b7d;
+    color: #cfffff;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #24299b;
+    color: #cfffff;
+  }
+  
+  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    background-color: #24299b;
+  }
+  
+  .bg {
+    /* background-color: #7db3aa; */
+    /* background-color: #7db3aa; */
+    background-image: linear-gradient(#8d5383, #e27e83);
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .bg-tab {
+    /* background-color: #7db3aa; */
+    /* background-color: #7db3aa; */
+    background-image: linear-gradient(#8d5383, #e27e83);
+    height: 290px;
+    overflow: auto;
+  }
+  
+  .bg-tab2 {
+    /* background-color: #7db3aa; */
+    /* background-color: #7db3aa; */
+    background-image: linear-gradient(#8d5383, #e27e83);
+    height: 583px;
+    overflow: auto;
+  }
+  
+  .bg-rules {
+    /* background-color: #7db3aa; */
+    /* background-color: #7db3aa; */
+    background-image: linear-gradient(#8d5383, #e27e83);
+    height: 328px;
+    overflow: auto;
+  }
+  
+  .bg-image {
+    background-image: url("https://media.giphy.com/media/UC8DbMqXvkpd6/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-color: #7db3aa;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .maintitle {
+    height: 180px;
+    font-size: 67px;
+    /* font-style: italic; */
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 500;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .maintitlegraphic {
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 600;
+    color: #9ba5f3;
+  }
+  
+  .maintitle2 {
+    font-size: 23px;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 600;
+    color: #9ba5f3;
+  }
+  
+  .titles {
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 600;
+    color: #181b7d;
+    /* background-color: #181b7d; */
+  }
+
+  .sub-title {
+    font-size: 20px;
+    margin-top: -12px;
+  }
+  
+  .topbar {
+    background-color: #181b7d;
+    margin: 15px 0px 20px 0px;
+    height: 180px;
+  }
+  
+  .topbar2 {
+    background-color: #181b7d;
+    margin: 5px 0px 5px 0px;
+    height: 70px;
+  }
+  
+  .height1 {
+    height: 700px;
+  }
+  
+  .height2 {
+    height: 400px;
+    margin: 10px 0px 5px 0px;
+  }
+  
+  .tenper {
+    height: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .eightper {
+    height: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .fourper {
+    height: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .allper {
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .top-spacing {
+    margin-top: 20px;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #181b7d; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9ba5f3; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9ba5f3; 
+  }
+  
+  .stroke {
+    text-shadow: 2px 2px 2px #0000007c;
+  }
+
+  .blue {
+    color: #2f7dc6
+  }
+  
+  .purple {
+   color: #8a36d8
+  }
+  
+  .black {
+    color: #444444
+  }
+  
+  .red {
+    color: #d81e1e
+  }
+  
+  .green {
+    color: #a4ffa4
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .mobile-style-title {
+      text-align: center;
+      font-size: 57px;
+      line-height: 1;
+      margin-bottom: 15px;
+    }
+  
+    .maintitle2 {
+      font-size: 20px;
+    }
+  }
